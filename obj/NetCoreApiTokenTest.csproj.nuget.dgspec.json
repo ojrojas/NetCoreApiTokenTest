@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiTokenTest/NetCoreApiTokenTest.csproj": {}
+    "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiTokenTest/NetCoreApiTokenTest.csproj": {}
   },
   "projects": {
-    "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiToken/RappiApi.csproj": {
+    "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiToken/RappiApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiToken/RappiApi.csproj",
+        "projectUniqueName": "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiToken/RappiApi.csproj",
         "projectName": "RappiApi",
-        "projectPath": "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiToken/RappiApi.csproj",
+        "projectPath": "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiToken/RappiApi.csproj",
         "packagesPath": "/home/orojasg/.nuget/packages/",
-        "outputPath": "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiToken/obj/",
+        "outputPath": "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiToken/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/orojasg/.nuget/NuGet/NuGet.Config"
@@ -97,18 +97,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/3.1.106/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiTokenTest/NetCoreApiTokenTest.csproj": {
+    "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiTokenTest/NetCoreApiTokenTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiTokenTest/NetCoreApiTokenTest.csproj",
+        "projectUniqueName": "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiTokenTest/NetCoreApiTokenTest.csproj",
         "projectName": "NetCoreApiTokenTest",
-        "projectPath": "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiTokenTest/NetCoreApiTokenTest.csproj",
+        "projectPath": "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiTokenTest/NetCoreApiTokenTest.csproj",
         "packagesPath": "/home/orojasg/.nuget/packages/",
-        "outputPath": "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiTokenTest/obj/",
+        "outputPath": "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiTokenTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/orojasg/.nuget/NuGet/NuGet.Config"
@@ -122,8 +122,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiToken/RappiApi.csproj": {
-                "projectPath": "/home/orojasg/Sources/Projects/NetCore/Rappi/NetCoreApiToken/RappiApi.csproj"
+              "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiToken/RappiApi.csproj": {
+                "projectPath": "/home/orojasg/Projects/NetCore/NetCoreApiTokenAnalyze/NetCoreApiToken/RappiApi.csproj"
               }
             }
           }
@@ -153,6 +153,12 @@
               "target": "Package",
               "version": "[1.2.0, )"
             },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.4.0, )"
@@ -177,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/3.1.106/RuntimeIdentifierGraph.json"
         }
       }
     }

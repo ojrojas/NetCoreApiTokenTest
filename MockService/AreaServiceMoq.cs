@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using FluentAssertions;
 using Moq;
 using NetCoreApiTokenTest.MockRepository;
@@ -21,7 +22,7 @@ namespace NetCoreApiTokenTest.MockService
         }
 
         [Fact]
-        public async System.Threading.Tasks.Task TestMethodActualizarAreaAsync()
+        public async Task TestMethodActualizarAreaAsync()
         {
             var result = await _areaService.ActualizarArea(new AreaViewModel
             {
@@ -34,14 +35,14 @@ namespace NetCoreApiTokenTest.MockService
         }
 
         [Fact]
-        public async System.Threading.Tasks.Task TestMethodContarAreasAsync()
+        public async Task TestMethodContarAreasAsync()
         {
             var result = await _areaService.ContarAreas();
             result.Equals(default(int));
         }
 
         [Fact]
-        public async System.Threading.Tasks.Task TestMethodCrearAreaAsync()
+        public async Task TestMethodCrearAreaAsync()
         {
             var result = await _areaService.CrearArea(new AreaViewModel
             {
@@ -54,7 +55,7 @@ namespace NetCoreApiTokenTest.MockService
         }
 
         [Fact]
-        public async System.Threading.Tasks.Task TestMethodEliminarAreaAsync()
+        public async Task TestMethodEliminarAreaAsync()
         {
             var result = await _areaService.EliminarArea(new AreaViewModel
             {
@@ -67,7 +68,7 @@ namespace NetCoreApiTokenTest.MockService
         }
 
         [Fact]
-        public async System.Threading.Tasks.Task TestMethodObtenerAreasAsync()
+        public async Task TestMethodObtenerAreasAsync()
         {
             var result = await _areaService.ObtenerAreas();
 

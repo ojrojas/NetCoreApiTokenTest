@@ -7,8 +7,6 @@ using RappiApi.Repository.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-
-
 namespace NetCoreApiTokenTest.MockRepository
 {
     public class AreaRepositoryMoq
@@ -43,6 +41,4 @@ namespace NetCoreApiTokenTest.MockRepository
                     new List<AreaViewModel>());
         }
     }
-
-
 }
